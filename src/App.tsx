@@ -1,14 +1,15 @@
 import Header from "./components/Header";
+import Interview from "./components/Interview";
 import MyInfo from "./components/MyInfo";
 
 function App() {
   return (
-    <div className="flex flex-col relative w-screen h-screen scrollbar-hide bg-main">
+    <div className="relative w-full bg-white">
       <Header />
-      <div className="w-full bg-white">
-        <MyInfo />
+      <MyInfo />
+      <div className="relative" style={{ marginTop: "100vh" }}>
+        <Interview />
       </div>
-      <div className="bg-gradient-to-b from-[#FFFFFF] to-main h-20"></div>
     </div>
   );
 }
