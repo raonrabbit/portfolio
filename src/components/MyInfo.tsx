@@ -25,11 +25,7 @@ export default function MyInfo() {
               transition={{ duration: 0.8, delay: 1 }}
               className="flex justify-center items-center rounded-t-full overflow-hidden w-80 h-80 object-cover "
             >
-              <img
-                src="../../public/assets/MyPhoto.jpg"
-                alt="프로필 사진"
-                loading="lazy"
-              />
+              <img src="/assets/MyPhoto.jpg" alt="프로필 사진" loading="lazy" />
             </motion.div>
           </div>
           <div className="flex flex-col gap-4">
